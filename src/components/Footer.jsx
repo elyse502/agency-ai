@@ -66,11 +66,11 @@ const Footer = ({ theme }) => {
         <p>
           Made with ❤️ by{" "}
           <a
-            className="text-primary font-extrabold text-md"
+            className="text-primary font-extrabold text-base hover:text-primary/50"
             href="https://elyse502.github.io/Elysee-Portfolio"
             target="_blank"
           >
-            ElyséeDev
+            <em>ElyséeDev</em>
           </a>
         </p>
         <div className="flex items-center justify-between gap-4">
